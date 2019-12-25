@@ -15,7 +15,7 @@ Package Requirements: tensorflow==1.14.0
 
 ## Usage
 ### 1. Download Pretrained Models
-We train the model on CNN/Daily dataset. The pretrained Abstractive summarization model can be download [here](https://drive.google.com/file/d/1G2MO9FVU06l9T0N3WlEjfWFu2uVCBSbG/view?usp=sharing)
+We train the model on Tensor2Tensor using CNN/Daily dataset. The pretrained Abstractive summarization model can be download [here](https://drive.google.com/file/d/1G2MO9FVU06l9T0N3WlEjfWFu2uVCBSbG/view?usp=sharing)
 
 ### 2. Replace the code 
 Replace codes from original tensorflow models code 

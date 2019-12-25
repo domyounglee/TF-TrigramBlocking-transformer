@@ -1,5 +1,5 @@
 # Trigram Blocking Implementation in Tensorflow 
-Implemented in tensorflow, trigrams are blocked during the beam search where the idea is from the paper [A DEEP REINFORCED MODEL FOR ABSTRACTIVE SUMMARIZATION](https://arxiv.org/pdf/1705.04304.pdf). This method is mainly used in Summarization Tasks. We developed it for *Abstractive Summarization Task*.
+Trigrams are blocked during the beam search where the idea is from the paper [A DEEP REINFORCED MODEL FOR ABSTRACTIVE SUMMARIZATION](https://arxiv.org/pdf/1705.04304.pdf). This method is mainly used in Summarization Tasks. We developed it for *Abstractive Summarization Task*.
 
 
 Python version: This code is in Python3.6

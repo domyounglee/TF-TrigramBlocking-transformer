@@ -7,7 +7,7 @@ Python version: This code is in Python3.6
 Package Requirements: tensorflow==1.14.0 
 
 
-**Note1 : The code is based on Tensorflow models (https://github.com/tensorflow/models) and trained on Tensor2Tensor**
+**Note1 : The code is based on Tensorflow models (https://github.com/tensorflow/models) and trained on Transformer**
 
 **Note2 : As some operations are not supported in GPU, you should run it in CPU.**
 

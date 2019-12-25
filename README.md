@@ -3,9 +3,12 @@ Implemented in tensorflow, trigrams are blocked during the beam search where the
 
 
 Python version: This code is in Python3.6
+
 Package Requirements: tensorflow==1.14.0 
 
+
 **Note1 : The code is based on Tensorflow models (https://github.com/tensorflow/models**
+
 **Note2 : As some operations are not supported in GPU, you should run it in CPU.**
 
 
@@ -18,7 +21,9 @@ We train the model on CNN/Daily dataset. The pretrained Abstractive summarizatio
 Replace codes from original tensorflow models code 
 
 >"*models/official/transformer/translate.py*"
+
 >"*models/official/transformer/model/transformer.py*"
+
 >"*models/official/transformer/model/beam_search.py*"
     
 to our "*_trigram_block.py" codes.

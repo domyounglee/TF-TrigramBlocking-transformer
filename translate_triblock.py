@@ -21,6 +21,7 @@ from __future__ import print_function
 import os
 
 # pylint: disable=g-bad-import-order
+from tensorflow.python import debug as tf_debug
 from absl import app as absl_app
 from absl import flags
 import tensorflow as tf
@@ -130,7 +131,9 @@ def translate_file(
     return ds
 
   translations = []
-  for i, prediction in enumerate(estimator.predict(input_fn)):
+  #hooks = [tf_debug.LocalCLIDebugHook()]
+  hooks = None
+  for i, prediction in enumerate(estimator.predict(input_fn, hooks= hooks)):
     translation = _trim_and_decode(prediction["outputs"], subtokenizer)
     translations.append(translation)
 

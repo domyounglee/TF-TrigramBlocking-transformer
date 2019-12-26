@@ -44,3 +44,5 @@ We test the model on CNN/Daily dataset.
 
 
 
+## Partner
+https://github.com/Gyunstorys

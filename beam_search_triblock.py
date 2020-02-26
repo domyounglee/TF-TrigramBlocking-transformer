@@ -22,7 +22,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.util import nest
 import sys
-tf.compat.v1.enable_eager_execution()
+#tf.compat.v1.enable_eager_execution()
 def inf(dtype):
   """Returns a value close to infinity, but is still finite in `dtype`.
 
